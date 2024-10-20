@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+ int p,c,b,m,cs, per,avg;
+ scanf("%d%d%d%d%d",&p,&c,&b,&m,&cs);
+ avg=p+c+b+m+cs;
+ per=avg/5.0;
+ if(per>=90)
+ {
+     printf("GRADE A");
+ }
+ else if(per>=80)
+ {
+     printf("GRADE B");
+ }
+ else if(per>=70)
+ {
+     printf("GRADE C");
+ }
+ else if(per>=60)
+ {
+     printf("GRADE D");
+ }
+ else if(per>=40)
+ {
+     printf("GRADE E");
+ }
+ else if(per<40)
+ {
+     printf("GRADE F");
+ }
+ return 0;
+}
+
+
