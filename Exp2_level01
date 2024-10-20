@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+ int a,b,c;
+ printf("ENTER THE THREE SIDES OF THE TRIANGLE:");
+ scanf("%d%d%d",&a,&b,&c);
+ if(a+b>c)
+ {
+    if(a+c>b)
+    {
+        if(b+c>a)
+        {
+            printf("valid");
+        }
+        else
+        {
+            printf("in valid");
+        }
+    }
+    else
+    {
+        printf("in valid");
+    }
+ }
+ else
+ {
+     printf("in valid");
+ }
+ return 0;
+}
+
+
